@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -22,7 +22,6 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:adjustViewBounds="true"
-        android:background=""
         android:maxWidth="130dp"
         android:maxHeight="130dp"
         android:scaleType="fitCenter"
@@ -38,10 +37,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="18sp"
         android:text="Dra. Patricia Duarte"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,8 +55,8 @@
         android:layout_height="wrap_content"
         android:text="Ciudad de origen: Empalme Sonora"
         android:textColor="@color/black"
-        android:textStyle="bold"
         android:textSize="14sp"
+        android:textStyle="bold"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,8 +72,8 @@
         android:layout_marginTop="8dp"
         android:text="Esta comprometida"
         android:textColor="@color/black"
-        android:textStyle="bold"
         android:textSize="14sp"
+        android:textStyle="bold"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -117,45 +116,16 @@
         app:layout_constraintVertical_bias="0.02" />
 
     <ImageButton
-        android:id="@+id/imgBtnForo"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="60dp"
-        android:background="@color/amarillo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.028"
-        app:srcCompat="@drawable/ic_baseline_forum_24"
-        app:tint="@color/black"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <ImageButton
         android:id="@+id/imgBtnContactos"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="32dp"
         android:background="@color/verde"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBtnForo"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtnEspecialistas"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imgBtnForo"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.553"
         app:srcCompat="@drawable/ic_baseline_person_24"
-        app:tint="@color/black"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/imgBtnEspecialistas"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="60dp"
-        android:background="@color/azul"
-        app:layout_constraintStart_toEndOf="@+id/imgBtnContactos"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/ic_baseline_supervised_user_circle_24"
         app:tint="@color/black"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -164,15 +134,43 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="60dp"
         android:background="@color/naranja"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBtnEspecialistas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBtnEspecialistas"
+        app:srcCompat="@drawable/ic_baseline_calendar_today_24"
+        app:tint="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnForo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/amarillo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toEndOf="@+id/imgBtnEspecialistas"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtnContactos"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_baseline_calendar_today_24"
+        app:srcCompat="@drawable/ic_baseline_forum_24"
+        app:tint="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnEspecialistas"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:background="@color/azul"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBtnContactos"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtnCalendario"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBtnContactos"
+        app:srcCompat="@drawable/ic_baseline_supervised_user_circle_24"
         app:tint="@color/black"
         tools:ignore="SpeakableTextPresentCheck" />
 

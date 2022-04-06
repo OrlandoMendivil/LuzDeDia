@@ -18,6 +18,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".activities.MenuActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.MenuPrincipalActivity" />
+        <activity android:name=".activities.PantallaJuegoActivity" />
+        <activity android:name=".activities.PalabrasLlanasJuegoActivity" />
+        <activity android:name=".activities.CelulaJuegoActivity" />
+        <activity android:name=".activities.PinActivity" />
+        <activity android:name=".activities.ParentRoomActivity" />
+        <activity android:name=".activities.ContactosActivity" />
+        <activity android:name=".activities.ListaEspecialistasActivity" />
+        <activity android:name=".activities.CalendarioActivity" />
+        <activity android:name=".activities.Notas2Activity" />
+        <activity android:name=".activities.NotasActivity" />
+        <activity android:name=".activities.RendimientoActivity" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.ForoActivity" />
+
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

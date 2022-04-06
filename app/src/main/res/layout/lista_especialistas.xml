@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.195" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_back"
         android:layout_width="49dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"

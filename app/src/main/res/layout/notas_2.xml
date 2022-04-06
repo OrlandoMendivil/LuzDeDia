@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/back_btn"
         android:layout_width="39dp"
         android:layout_height="37dp"
         android:background="#00FFFFFF"
@@ -59,7 +59,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/plus_btn"
         android:layout_width="44dp"
         android:layout_height="42dp"
         android:layout_marginBottom="52dp"

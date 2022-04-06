@@ -97,7 +97,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="@+id/view4"
         app:layout_constraintStart_toStartOf="@+id/view4"
-        app:layout_constraintTop_toTopOf="@+id/view4"
-        android:background="null"/>
+        app:layout_constraintTop_toTopOf="@+id/view4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

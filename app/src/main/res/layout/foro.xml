@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,6 +12,7 @@
         android:background="#E9BB30"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -21,7 +21,7 @@
         android:id="@+id/rendimiento_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calendario "
+        android:text="Foro"
         android:textColor="@color/black"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,67 +32,68 @@
         app:layout_constraintVertical_bias="0.195" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/view2"
-        app:layout_constraintTop_toBottomOf="@+id/rendimiento_tv"
-        app:layout_constraintVertical_bias="0.099"
-        app:srcCompat="@drawable/calendario"
-        tools:layout_editor_absoluteX="21dp" />
-
-    <View
-        android:id="@+id/view2"
-        android:layout_width="match_parent"
-        android:layout_height="10dp"
+        android:id="@+id/imageView4"
+        android:layout_width="167dp"
+        android:layout_height="154dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.86"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        app:srcCompat="@drawable/avatar_foro" />
 
-    <Button
-        android:id="@+id/notas_btn"
+    <TextView
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
-        android:backgroundTint="@color/amarillo"
-        android:text="Notas"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/roboto"
+        android:text="Lic. Gabriel R "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="292dp"
+        android:layout_height="233dp"
+        android:text="Publicaciones en el foro "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="291dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/elementos_claros"
+        android:ems="10"
+        android:inputType="textPersonName"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/logros_btn"
-        app:layout_constraintTop_toBottomOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/logros_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="60dp"
-        android:backgroundTint="@color/amarillo"
-        android:text="LOGROS"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/notas_btn"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/back_calendario_btn"
-        android:layout_width="41dp"
-        android:layout_height="49dp"
+        android:id="@+id/back_foro_btn"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:background="#00FFFFFF"
         app:icon="@drawable/ic_baseline_arrow_back_ios_24"
         app:iconTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
