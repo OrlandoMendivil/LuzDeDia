@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -15,63 +16,68 @@
 
     <EditText
         android:id="@+id/editTextName"
-        android:layout_marginBottom="12dp"
-        android:paddingHorizontal="10dp"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/personalized_edit_text"
         android:gravity="left|center"
         android:hint="Nombre"
+        android:paddingHorizontal="10dp"
         android:textColorHint="@color/textos_medios"
-        android:background="@drawable/personalized_edit_text"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextLastName"
-        android:layout_marginBottom="12dp"
-        android:paddingHorizontal="10dp"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/personalized_edit_text"
         android:gravity="left|center"
         android:hint="Apellido"
+        android:paddingHorizontal="10dp"
         android:textColorHint="@color/textos_medios"
-        android:background="@drawable/personalized_edit_text"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextMail"
-        android:layout_marginBottom="12dp"
-        android:paddingHorizontal="10dp"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/personalized_edit_text"
         android:gravity="left|center"
         android:hint="Correo"
+        android:paddingHorizontal="10dp"
         android:textColorHint="@color/textos_medios"
-        android:background="@drawable/personalized_edit_text"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_marginBottom="12dp"
-        android:paddingHorizontal="10dp"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/personalized_edit_text"
         android:gravity="left|center"
         android:hint="Contraseña"
+        android:paddingHorizontal="10dp"
         android:textColorHint="@color/textos_medios"
-        android:background="@drawable/personalized_edit_text"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextConfirmPassword"
-        android:layout_marginBottom="12dp"
-        android:paddingHorizontal="10dp"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/personalized_edit_text"
         android:gravity="left|center"
         android:hint="Confirmar contraseña"
+        android:paddingHorizontal="10dp"
         android:textColorHint="@color/textos_medios"
-        android:background="@drawable/personalized_edit_text"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btn_comenzar"

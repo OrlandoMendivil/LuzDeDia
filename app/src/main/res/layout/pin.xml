@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -36,55 +37,59 @@
 
         <EditText
             android:id="@+id/editTextPin1"
-            android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:layout_weight="1"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:textColorHint="@color/textos_medios"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="@drawable/personalized_edit_text"
+            android:gravity="center"
             android:inputType="numberSigned"
-            android:maxLength="1"/>
+            android:maxLength="1"
+            android:textColorHint="@color/textos_medios"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/editTextPin2"
-            android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:layout_weight="1"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:textColorHint="@color/textos_medios"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="@drawable/personalized_edit_text"
+            android:gravity="center"
             android:inputType="numberSigned"
-            android:maxLength="1"/>
+            android:maxLength="1"
+            android:textColorHint="@color/textos_medios"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/editTextPin3"
-            android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:layout_weight="1"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:textColorHint="@color/textos_medios"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="@drawable/personalized_edit_text"
+            android:gravity="center"
             android:inputType="numberSigned"
-            android:maxLength="1"/>
+            android:maxLength="1"
+            android:textColorHint="@color/textos_medios"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/editTextPin4"
-            android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:layout_weight="1"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:textColorHint="@color/textos_medios"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="@drawable/personalized_edit_text"
+            android:gravity="center"
             android:inputType="numberSigned"
-            android:maxLength="1"/>
+            android:maxLength="1"
+            android:textColorHint="@color/textos_medios"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <Button
@@ -105,14 +110,15 @@
         android:id="@+id/imgBtnKidsZone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
         android:maxWidth="200dp"
         android:maxHeight="200dp"
-        android:background="@color/white"
         android:scaleType="fitCenter"
-        android:layout_marginTop="10dp"
 
-        app:srcCompat="@drawable/kids_zone" />
+        app:srcCompat="@drawable/kids_zone"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </LinearLayout>
