@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3725" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/border_palabras_images.xml" value="0.3725" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/border_quiz_answer.xml" value="0.3725" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3725" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/roundedborder_chat_texto.xml" value="0.3725" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/roundedborder_palabras_letras.xml" value="0.3725" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/roundedborder_palabras_letras_preguntas.xml" value="0.3725" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/roundedborder_palabras_letras_respuestas.xml" value="0.3725" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/login.xml" value="0.371875" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_chat.xml" value="0.5" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_especialista.xml" value="0.33055555555555555" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_juego_celula.xml" value="0.33" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_juego_palabrasllanas.xml" value="0.5739549839228296" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_juegos.xml" value="0.33" />
+        <entry key="..\:/Projects/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_rendimiento.xml" value="0.33055555555555555" />
         <entry key="..\:/Users/Orlando Mendivil/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1655" />
         <entry key="..\:/Users/Orlando Mendivil/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1655" />
         <entry key="..\:/Users/Orlando Mendivil/AndroidStudioProjects/LuzDeDia/app/src/main/res/drawable/personalized_button_comenzar.xml" value="0.3675" />
@@ -12,6 +28,7 @@
         <entry key="..\:/Users/Orlando Mendivil/Documents/GitHub/LuzDeDia/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Orlando Mendivil/Documents/GitHub/LuzDeDia/app/src/main/res/layout/login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Orlando Mendivil/Documents/GitHub/LuzDeDia/app/src/main/res/layout/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Orlando Mendivil/Documents/GitHub/LuzDeDia/app/src/main/res/layout/parents_room.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Orlando Mendivil/Documents/GitHub/LuzDeDia/app/src/main/res/layout/pin.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Orlando Mendivil/Documents/GitHub/LuzDeDia/app/src/main/res/layout/register.xml" value="0.25" />
         <entry key="..\:/Users/Orlando Mendivil/Documents/GitHub/LuzDeDia/app/src/main/res/layout/startup_screen.xml" value="0.11851851851851852" />
@@ -28,6 +45,13 @@
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/menu.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/notas.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/notas_2.xml" value="0.40217391304347827" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_chat.xml" value="0.40217391304347827" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_especialista.xml" value="0.40217391304347827" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_juego_celula.xml" value="0.40217391304347827" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_juego_palabrasllanas.xml" value="0.40217391304347827" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_juegos.xml" value="0.40217391304347827" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pantalla_rendimiento.xml" value="0.40217391304347827" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/parents_room.xml" value="0.40217391304347827" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pin.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/register.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/startup_screen.xml" value="0.4041666666666667" />

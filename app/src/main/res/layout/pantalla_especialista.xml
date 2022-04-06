@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#629DD3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#A4E7DB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143"
+        app:shapeAppearance="@style/Circular"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Dra. Patricia Duarte"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/descripcion_especialista_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/descripcion_especialista_tv"
+        android:layout_width="330dp"
+        android:layout_height="390dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nisl et lorem finibus malesuada sed ac mauris. Vestibulum tincidunt nisl a sapien commodo fringilla. Cras rhoncus porta euismod. Suspendisse placerat felis odio, eu eleifend dui congue in. Nullam gravida, magna vitae faucibus varius, metus nibh aliquet ex, eu molestie neque elit vitae nibh. Duis aliquam lorem ac dapibus condimentum. Donec eget cursus turpis.  Sed condimentum, nibh in finibus luctus, diam quam mattis lectus, ut rutrum lectus mauris eget est. Curabitur non nulla sem. Duis id nunc justo. Mauris ex lectus, euismod sed condimentum in, efficitur vitae dolor. In tempus mauris neque, a laoreet metus efficitur at. Nullam hendrerit, lacus non suscipit aliquam, sapien justo lobortis nibh, et laoreet odio orci eu arcu. Donec vel dolor convallis, commodo odio nec, pharetra orci. Quisque ullamcorper arcu sit amet ultricies lacinia. Quisque convallis nec leo a egestas.  Nulla facilisi. Maecenas mollis nisi aliquet, sollicitudin libero auctor, hendrerit quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin efficitur sem et euismod laoreet. Fusce aliquam tincidunt elit eget interdum. Aenean vitae eros quis urna ornare dignissim. Nunc eu diam pretium, molestie arcu sit amet, iaculis urna. Sed sed ultrices metus. Vivamus nec elit eget tellus consectetur rhoncus a id ex. Sed consectetur nisi quis enim vulputate, id malesuada justo volutpat. Fusce in interdum diam. Praesent tempor ante vel odio ornare feugiat.  Nunc leo sapien, fermentum eget sollicitudin sed, condimentum non ipsum. Duis sed venenatis enim. Aenean sit amet pharetra purus. Nulla molestie pellentesque mauris, id ultrices purus fermentum eget. Cras egestas ultricies orci, vitae molestie turpis accumsan a. Maecenas vel lacus sapien. Aliquam pretium tempor erat sed egestas. Vivamus convallis varius ornare. Suspendisse quis lacinia tortor. Nullam viverra scelerisque tristique. Phasellus eu libero vel purus faucibus viverra nec id mauris. Maecenas neque velit, posuere ut nulla quis, vehicula mollis ipsum.  Aliquam finibus felis gravida, placerat enim molestie, posuere arcu. Phasellus sed orci condimentum, porttitor urna in, porta odio. Suspendisse potenti. Maecenas vitae felis vel metus tristique dapibus vitae consequat velit. Aenean diam ligula, tincidunt quis nibh at, posuere finibus ex. Pellentesque quis congue nisl, non volutpat tellus. Fusce posuere augue sit amet suscipit luctus. Cras pulvinar vestibulum orci vel laoreet. Donec eget vulputate mauris. Nunc maximus auctor eros, vitae bibendum risus. Aliquam consequat rhoncus pulvinar. Nulla pulvinar ante nunc, sed porttitor dui aliquet ac."
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <Button
+        android:id="@+id/chat_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/aniadir_btn"
+        app:layout_constraintTop_toBottomOf="@+id/descripcion_especialista_tv" />
+
+    <Button
+        android:id="@+id/aniadir_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/chat_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcion_especialista_tv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

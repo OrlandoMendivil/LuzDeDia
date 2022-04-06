@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/palabras_llanas_iv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/palabras_llanas_logo"
+        app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/celula_logo_iv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/la_celula_logo"
+        app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+
+</LinearLayout>

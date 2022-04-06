@@ -21,7 +21,7 @@
         android:id="@+id/rendimiento_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calendario "
+        android:text="Rendimiento"
         android:textColor="@color/black"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
         app:layout_constraintBottom_toTopOf="@+id/view2"
         app:layout_constraintTop_toBottomOf="@+id/rendimiento_tv"
         app:layout_constraintVertical_bias="0.099"
-        app:srcCompat="@drawable/calendario"
+        app:srcCompat="@drawable/grafica_puntos_ejemplo"
         tools:layout_editor_absoluteX="21dp" />
 
     <View
@@ -54,41 +54,41 @@
         android:id="@+id/notas_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="60dp"
         android:backgroundTint="@color/amarillo"
         android:text="Notas"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/perfil_btn" />
 
     <Button
-        android:id="@+id/logros_btn"
+        android:id="@+id/perfil_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
         android:layout_marginBottom="60dp"
         android:backgroundTint="@color/amarillo"
-        android:text="LOGROS"
+        android:text="Perfil"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/notas_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/calendario_btn"
         app:layout_constraintTop_toBottomOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="41dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="16dp"
-        android:background="#00FFFFFF"
-        app:icon="@drawable/ic_baseline_arrow_back_ios_24"
-        app:iconTint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
+        android:id="@+id/calendario_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/amarillo"
+        android:text="Calendario"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/perfil_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

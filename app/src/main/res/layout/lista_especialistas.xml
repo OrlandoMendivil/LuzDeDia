@@ -13,6 +13,7 @@
         android:background="@color/azul"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -31,14 +32,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.195" />
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        app:icon="@drawable/ic_baseline_arrow_back_ios_24"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="-26dp"
-        tools:layout_editor_absoluteY="-16dp">
-
-    </ListView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

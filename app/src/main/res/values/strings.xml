@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LuzDeDia</string>
+    <string name="infoPerfil">
+        Aqui no solo se deben añadir el nombre de la licenciatura, grado, masters, postgrados, doctorados o cursos, sino tambien la universidad y el año de comienzo y finalizacion de los mismos.
+        Es importante que señales la especializacion del MIR que has hecho durante 4 años, y asi diferenciar tu curriculum
+        de medico forense de uno de cirujano plastico o medico psiquiatra. Si no tenemos experiencia,
+        la formacion sera nuestro mayor activo por lo que debemos colocarlo al principio.
+    </string>
 </resources>
