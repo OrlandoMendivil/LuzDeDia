@@ -5,13 +5,13 @@
 
 
     <ImageView
-        android:id="@+id/img_view"
+        android:id="@+id/img2"
         android:layout_width="170dp"
         android:layout_height="250dp"
         android:layout_margin="15dp"
         android:src="@drawable/imagen_avatar"/>
     <TextView
-        android:id="@+id/tv_nombre"
+        android:id="@+id/nombre2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="left|center"
