@@ -35,6 +35,7 @@
         <activity android:name=".activities.RendimientoActivity" />
         <activity android:name=".activities.RegisterActivity" />
         <activity android:name=".activities.ForoActivity" />
+        <activity android:name=".activities.RemPasswordActivity" />
 
 
         <meta-data

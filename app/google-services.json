@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82041871094",
+    "project_id": "luzdedia-1f73f",
+    "storage_bucket": "luzdedia-1f73f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82041871094:android:773c6c43c6fd9b53332ad7",
+        "android_client_info": {
+          "package_name": "mendivil.valenzuela.ciulog.luzdedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82041871094-vpi7d21fc2dcmiidesnpfifmp63ce5vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9slp6RcZrqithB7Pn5s87F5lFuTFDKvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82041871094-vpi7d21fc2dcmiidesnpfifmp63ce5vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
