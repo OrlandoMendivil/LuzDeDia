@@ -36,6 +36,7 @@
         <activity android:name=".activities.RegisterActivity" />
         <activity android:name=".activities.ForoActivity" />
         <activity android:name=".activities.RemPasswordActivity" />
+        <activity android:name=".activities.Memory_game"/>
 
 
         <meta-data
