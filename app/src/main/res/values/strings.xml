@@ -6,4 +6,7 @@
         de medico forense de uno de cirujano plastico o medico psiquiatra. Si no tenemos experiencia,
         la formacion sera nuestro mayor activo por lo que debemos colocarlo al principio.
     </string>
+
+    <string name="btn_actualizar">Reiniciar</string>
+    <string name="btn_salir">Salir</string>
 </resources>

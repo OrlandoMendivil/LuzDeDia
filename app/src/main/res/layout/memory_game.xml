@@ -165,6 +165,52 @@
 
         </TableRow>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/btnReiniciar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_actualizar">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_salir">
+
+            </Button>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:text="Puntuación: 0">
+
+            </TextView>
+
+        </LinearLayout>
+
+
     </TableLayout>
 
 </LinearLayout>
