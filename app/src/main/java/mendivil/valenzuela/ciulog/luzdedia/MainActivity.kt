@@ -4,8 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import mendivil.valenzuela.ciulog.luzdedia.activities.CelulaJuegoActivity
 import mendivil.valenzuela.ciulog.luzdedia.activities.LoginActivity
 import mendivil.valenzuela.ciulog.luzdedia.activities.MenuActivity
+import mendivil.valenzuela.ciulog.luzdedia.activities.PalabrasLlanasJuegoActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
