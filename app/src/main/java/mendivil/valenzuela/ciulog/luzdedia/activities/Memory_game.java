@@ -148,7 +148,7 @@ public class Memory_game extends Activity {
                 aciertos++;
                 puntuacion++;
                 if (aciertos == imagenes.length){
-                    tv_puntuacion.setText("Has ganado, Felicidades, Bien Hecho!!");
+                    tv_puntuacion.setText("¡¡Has Ganado!!\n ¡¡Felicidades!!");
                 }
            }else{
                handler.postDelayed(new Runnable() {

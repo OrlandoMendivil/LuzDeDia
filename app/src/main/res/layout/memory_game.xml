@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/azul">
+
+
+
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memorama"
+            android:textAlignment="center"
+            android:textColor="@color/amarillo"
+            android:textIsSelectable="false"
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -176,7 +191,8 @@
                 android:id="@+id/btnReiniciar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_actualizar">
+                android:text="@string/btn_actualizar"
+                android:backgroundTint="@color/verde">
 
             </Button>
 
@@ -184,7 +200,9 @@
                 android:id="@+id/btnSalir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_salir">
+                android:text="@string/btn_salir"
+                android:backgroundTint="@color/rojo"
+                android:textColor="@color/white">
 
             </Button>
 
@@ -204,7 +222,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textSize="25dp"
+                android:textAlignment="center"
                 android:layout_gravity="center"
+                android:textColor="@color/black"
                 android:text="">
 
             </TextView>

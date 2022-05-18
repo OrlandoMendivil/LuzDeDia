@@ -22,6 +22,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="12dp"
         android:background="@drawable/personalized_edit_text"
+        android:textColor="@color/black"
         android:gravity="center"
         android:hint="\@gmail"
         android:textColorHint="@color/textos_medios"
@@ -37,7 +38,9 @@
         android:gravity="center"
         android:hint="Contraseña"
         android:textColorHint="@color/textos_medios"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:textColor="@color/black"
+        android:password="true"/>
 
     <Button
         android:id="@+id/btn_comenzar"
