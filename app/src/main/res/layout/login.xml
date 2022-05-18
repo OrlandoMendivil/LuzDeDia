@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/imageView"
@@ -27,7 +28,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextPassword"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
@@ -47,9 +48,20 @@
         android:textStyle="bold"
         android:text="COMENZAR" />
 
+    <Button
+        android:id="@+id/btnRemPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:backgroundTint="@android:color/white"
+        android:layout_marginTop="5dp"/>
+
     <Space
         android:layout_width="match_parent"
-        android:layout_height="100dp"/>
+        android:layout_height="90dp"/>
     <Button
         android:id="@+id/btn_registrarte"
         android:layout_width="300dp"
