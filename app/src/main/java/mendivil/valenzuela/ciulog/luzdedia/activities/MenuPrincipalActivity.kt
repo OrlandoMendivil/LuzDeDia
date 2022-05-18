@@ -11,7 +11,7 @@ class MenuPrincipalActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pantalla_juegos)
 
-        val palabras_llanas_iv : ImageView = findViewById(R.id.palabras_llanas_iv)
+        val palabras_llanas_iv : ImageView = findViewById(R.id.memorama_iv)
         palabras_llanas_iv.setOnClickListener{
             val intent: Intent = Intent(this, PalabrasLlanasJuegoActivity::class.java)
 

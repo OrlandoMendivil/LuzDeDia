@@ -12,8 +12,8 @@ class PantallaJuegoActivity: AppCompatActivity() {
         setContentView(R.layout.pantalla_juegos)
 
         //Se cambio el juego de palabras llanas a juego de memoria.
-        val palabras_llanas : ImageView = findViewById(R.id.palabras_llanas_iv)
-        palabras_llanas.setOnClickListener{
+        val memorama : ImageView = findViewById(R.id.memorama_iv)
+        memorama.setOnClickListener{
             val intent: Intent = Intent(this, Memory_game::class.java)
 
             startActivity(intent)

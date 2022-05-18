@@ -10,13 +10,13 @@
         android:layout_height="40dp"/>
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/palabras_llanas_iv"
+        android:id="@+id/memorama_iv"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
         android:layout_margin="25dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/palabras_llanas_logo"
+        android:src="@drawable/memorama"
         app:shapeAppearanceOverlay="@style/RoundedSquare" />
 
     <com.google.android.material.imageview.ShapeableImageView
