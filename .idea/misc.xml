@@ -78,6 +78,9 @@
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/pin.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/register.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/LuzDeDia/app/src/main/res/layout/startup_screen.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/drawable/fondo_background.xml" value="0.3125" />
+        <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/drawable/fondo_nota.xml" value="0.3125" />
+        <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3125" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/activity_contactos.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/activity_main.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/contacto_datos.xml" value="0.3917572463768116" />
@@ -85,6 +88,8 @@
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/especialista_datos.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/foro.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/lista_especialistas.xml" value="0.3917572463768116" />
+        <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/login.xml" value="0.3917572463768116" />
+        <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/memory_game.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/notas.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/notas_2.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/pantalla_chat.xml" value="0.3917572463768116" />
@@ -95,6 +100,9 @@
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/pantalla_rendimiento.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/parents_room.xml" value="0.3917572463768116" />
         <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/pin.xml" value="0.3917572463768116" />
+        <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/layout/register.xml" value="0.3917572463768116" />
+        <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2205" />
+        <entry key="..\:/Users/PC/OneDrive/Documentos/GitHub/LuzDeDia/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2205" />
       </map>
     </option>
   </component>
