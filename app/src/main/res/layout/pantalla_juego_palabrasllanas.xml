@@ -46,7 +46,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/border_palabras_images"
                     android:padding="10dp"
-                    android:src="@drawable/pregunta_celula" />
+                    android:src="@drawable/pregunta_celula___" />
 
                 <ImageView
                     android:id="@+id/imagen_pregunta_2_iv"
@@ -57,7 +57,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/border_palabras_images"
                     android:padding="10dp"
-                    android:src="@drawable/pregunta_celula" />
+                    android:src="@drawable/pregunta_celula___" />
             </LinearLayout>
 
             <LinearLayout
@@ -76,7 +76,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/border_palabras_images"
                     android:padding="10dp"
-                    android:src="@drawable/pregunta_celula" />
+                    android:src="@drawable/pregunta_celula___" />
 
                 <ImageView
                     android:id="@+id/imagen_pregunta_4_iv"
@@ -87,7 +87,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/border_palabras_images"
                     android:padding="10dp"
-                    android:src="@drawable/pregunta_celula" />
+                    android:src="@drawable/pregunta_celula___" />
             </LinearLayout>
 
         </LinearLayout>
