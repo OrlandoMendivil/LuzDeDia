@@ -106,16 +106,11 @@ class CelulaJuegoActivity : AppCompatActivity() {
 
         // 6 es el max de cambios de preguntas
         if (preguntaActual > 6) {
-            //TODO: finalizar
             val alertDialogBuilder = AlertDialog.Builder(this)
             alertDialogBuilder.setTitle("Has terminado")
             alertDialogBuilder.setMessage("Se ha acabado el juego!")
-            alertDialogBuilder.setPositiveButton("Ok") { dialog, which ->
+            alertDialogBuilder.setPositiveButton("Ok") { _, _ ->
                 finish()
-//                Toast.makeText(
-//                    applicationContext,
-//                    android.R.string.yes, Toast.LENGTH_SHORT
-//                ).show()
             }.show()
         } else {
 
@@ -238,6 +233,8 @@ class CelulaJuegoActivity : AppCompatActivity() {
         )
         val preguntas: Array<CelulaPregunta> =
             arrayOf(pregunta1, pregunta2, pregunta3, pregunta5, pregunta6, pregunta7, pregunta8)
+
+        preguntas.shuffle()
 
 //        preguntas[0] = pregunta1
 //        preguntas[1] = pregunta2
